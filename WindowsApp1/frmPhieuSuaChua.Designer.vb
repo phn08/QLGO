@@ -23,42 +23,39 @@ Partial Class frmPhieuSuaChua
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
         Me.GroupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.GroupBox1.Controls.Add(Me.Button3)
         Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.GroupBox3)
         Me.GroupBox1.Controls.Add(Me.GroupBox2)
@@ -74,87 +71,18 @@ Partial Class frmPhieuSuaChua
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "PHIẾU SỬA CHỮA"
         '
-        'Label2
+        'Button1
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(12, 47)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(126, 21)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Ngày sửa chữa"
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.ComboBox1)
-        Me.GroupBox2.Controls.Add(Me.ComboBox2)
-        Me.GroupBox2.Controls.Add(Me.TextBox3)
-        Me.GroupBox2.Controls.Add(Me.Label6)
-        Me.GroupBox2.Controls.Add(Me.Label5)
-        Me.GroupBox2.Controls.Add(Me.Label3)
-        Me.GroupBox2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(25, 158)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(229, 280)
-        Me.GroupBox2.TabIndex = 2
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Thông tin"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(6, 48)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(131, 17)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Mã phiếu tiếp nhận"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(6, 115)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(56, 17)
-        Me.Label5.TabIndex = 5
-        Me.Label5.Text = "Hiệu xe"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(6, 195)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(54, 17)
-        Me.Label6.TabIndex = 6
-        Me.Label6.Text = "Biển số"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(16, 79)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(208, 32)
-        Me.TextBox1.TabIndex = 7
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(53, 215)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(162, 26)
-        Me.TextBox3.TabIndex = 9
-        '
-        'ComboBox2
-        '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(55, 74)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(160, 27)
-        Me.ComboBox2.TabIndex = 10
+        Me.Button1.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(673, 158)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(110, 56)
+        Me.Button1.TabIndex = 13
+        Me.Button1.Text = "Lập phiếu"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'GroupBox3
         '
-        Me.GroupBox3.Controls.Add(Me.Button2)
         Me.GroupBox3.Controls.Add(Me.DataGridView1)
         Me.GroupBox3.Controls.Add(Me.ComboBox4)
         Me.GroupBox3.Controls.Add(Me.ComboBox3)
@@ -172,12 +100,64 @@ Partial Class frmPhieuSuaChua
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Nọi dung sửa chữa"
         '
+        'DataGridView1
+        '
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4})
+        Me.DataGridView1.Location = New System.Drawing.Point(9, 272)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(392, 132)
+        Me.DataGridView1.TabIndex = 14
+        '
+        'Column1
+        '
+        Me.Column1.HeaderText = "STT"
+        Me.Column1.Name = "Column1"
+        '
+        'Column2
+        '
+        Me.Column2.HeaderText = "Phụ tùng"
+        Me.Column2.Name = "Column2"
+        '
+        'Column3
+        '
+        Me.Column3.HeaderText = "Số lượng"
+        Me.Column3.Name = "Column3"
+        '
+        'Column4
+        '
+        Me.Column4.HeaderText = "Giá"
+        Me.Column4.Name = "Column4"
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Location = New System.Drawing.Point(53, 180)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(160, 30)
+        Me.ComboBox4.TabIndex = 11
+        '
+        'ComboBox3
+        '
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Location = New System.Drawing.Point(53, 122)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(160, 30)
+        Me.ComboBox3.TabIndex = 11
+        '
         'TextBox6
         '
         Me.TextBox6.Location = New System.Drawing.Point(239, 180)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(162, 29)
         Me.TextBox6.TabIndex = 9
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(53, 66)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(336, 29)
+        Me.TextBox2.TabIndex = 8
         '
         'Label7
         '
@@ -219,15 +199,21 @@ Partial Class frmPhieuSuaChua
         Me.Label10.TabIndex = 3
         Me.Label10.Text = "Nọi dung"
         '
-        'Button1
+        'GroupBox2
         '
-        Me.Button1.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(673, 158)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(110, 56)
-        Me.Button1.TabIndex = 13
-        Me.Button1.Text = "Lập phiếu"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.GroupBox2.Controls.Add(Me.ComboBox1)
+        Me.GroupBox2.Controls.Add(Me.ComboBox2)
+        Me.GroupBox2.Controls.Add(Me.TextBox3)
+        Me.GroupBox2.Controls.Add(Me.Label6)
+        Me.GroupBox2.Controls.Add(Me.Label5)
+        Me.GroupBox2.Controls.Add(Me.Label3)
+        Me.GroupBox2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox2.Location = New System.Drawing.Point(25, 158)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(229, 280)
+        Me.GroupBox2.TabIndex = 2
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Thông tin"
         '
         'ComboBox1
         '
@@ -237,77 +223,67 @@ Partial Class frmPhieuSuaChua
         Me.ComboBox1.Size = New System.Drawing.Size(160, 27)
         Me.ComboBox1.TabIndex = 10
         '
-        'TextBox2
+        'ComboBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(53, 66)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(336, 29)
-        Me.TextBox2.TabIndex = 8
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Location = New System.Drawing.Point(55, 74)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(160, 27)
+        Me.ComboBox2.TabIndex = 10
         '
-        'ComboBox3
+        'TextBox3
         '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(53, 122)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(160, 30)
-        Me.ComboBox3.TabIndex = 11
+        Me.TextBox3.Location = New System.Drawing.Point(53, 215)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(162, 26)
+        Me.TextBox3.TabIndex = 9
         '
-        'ComboBox4
+        'Label6
         '
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(53, 180)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(160, 30)
-        Me.ComboBox4.TabIndex = 11
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(6, 195)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(54, 17)
+        Me.Label6.TabIndex = 6
+        Me.Label6.Text = "Biển số"
         '
-        'DataGridView1
+        'Label5
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4})
-        Me.DataGridView1.Location = New System.Drawing.Point(9, 272)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(392, 132)
-        Me.DataGridView1.TabIndex = 14
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(6, 115)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(56, 17)
+        Me.Label5.TabIndex = 5
+        Me.Label5.Text = "Hiệu xe"
         '
-        'Button2
+        'Label3
         '
-        Me.Button2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(143, 226)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(111, 28)
-        Me.Button2.TabIndex = 14
-        Me.Button2.Text = "Thêm vào list"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(6, 52)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(131, 17)
+        Me.Label3.TabIndex = 3
+        Me.Label3.Text = "Mã phiếu tiếp nhận"
         '
-        'Column1
+        'TextBox1
         '
-        Me.Column1.HeaderText = "STT"
-        Me.Column1.Name = "Column1"
+        Me.TextBox1.Location = New System.Drawing.Point(16, 79)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(208, 32)
+        Me.TextBox1.TabIndex = 7
         '
-        'Column2
+        'Label2
         '
-        Me.Column2.HeaderText = "Phụ tùng"
-        Me.Column2.Name = "Column2"
-        '
-        'Column3
-        '
-        Me.Column3.HeaderText = "Số lượng"
-        Me.Column3.Name = "Column3"
-        '
-        'Column4
-        '
-        Me.Column4.HeaderText = "Giá"
-        Me.Column4.Name = "Column4"
-        '
-        'Button3
-        '
-        Me.Button3.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(673, 234)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(110, 56)
-        Me.Button3.TabIndex = 14
-        Me.Button3.Text = "Hủy"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(12, 47)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(126, 21)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Ngày sửa chữa"
         '
         'frmPhieuSuaChua
         '
@@ -319,11 +295,11 @@ Partial Class frmPhieuSuaChua
         Me.Text = "Phiếu sửa chữa"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -347,8 +323,6 @@ Partial Class frmPhieuSuaChua
     Friend WithEvents Label3 As Label
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
