@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("ClassLibrary2")>
+<Assembly: AssemblyTitle("QLGO1DAL")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("ClassLibrary2")>
+<Assembly: AssemblyProduct("QLGO1DAL")>
 <Assembly: AssemblyCopyright("Copyright ©  2018")>
 <Assembly: AssemblyTrademark("")>
 

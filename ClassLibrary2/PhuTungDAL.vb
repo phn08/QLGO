@@ -98,7 +98,7 @@ Public Class PhuTungDAL
         Return New Result(True) ' thanh cong
     End Function
 
-    Public Function delete(pt As PhuTungDTO) As Result
+    Public Function delete(iMaPhuTung As Integer) As Result
         Dim query As String = String.Empty
         query &= " DELETE FROM [dbo].[tblphutung] "
         query &= " WHERE "
@@ -110,7 +110,7 @@ Public Class PhuTungDAL
                     .Connection = conn
                     .CommandType = CommandType.Text
                     .CommandText = query
-                    .Parameters.AddWithValue("@maphutung", pt.MaPhuTung)
+                    .Parameters.AddWithValue("@maphutung", iMaPhuTung)
                 End With
                 Try
                     conn.Open()

@@ -125,7 +125,7 @@ Public Class PhieuTiepNhanDAL
         Return New Result(True) ' thanh cong
     End Function
 
-    Public Function select_byMaHX(iMaPhieuTN As Integer, listDS As List(Of PhieuTiepNhanDTO)) As Result
+    Public Function select_byMaPhieuTN(iMaPhieuTN As Integer, listDS As List(Of PhieuTiepNhanDTO)) As Result
 
         Dim query As String = String.Empty
         query &= " SELECT [maphieutn], [mattxe], [ngaynhan]"

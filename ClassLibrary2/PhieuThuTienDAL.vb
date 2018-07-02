@@ -98,7 +98,7 @@ Public Class PhieuThuTienDAL
         Return New Result(True) ' thanh cong
     End Function
 
-    Public Function delete(tt As PhieuThuTienDTO) As Result
+    Public Function delete(iMaPhieuThuTien As Integer) As Result
         Dim query As String = String.Empty
         query &= " DELETE FROM [dbo].[tblphieuthutien] "
         query &= " WHERE "
@@ -110,7 +110,7 @@ Public Class PhieuThuTienDAL
                     .Connection = conn
                     .CommandType = CommandType.Text
                     .CommandText = query
-                    .Parameters.AddWithValue("@maphieuthutien", tt.MaPhieuThuTien)
+                    .Parameters.AddWithValue("@maphieuthutien", iMaPhieuThuTien)
                 End With
                 Try
                     conn.Open()
