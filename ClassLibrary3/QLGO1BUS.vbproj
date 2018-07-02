@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaoCaoTonBus.vb" />
+    <Compile Include="PhieuTiepNhanBus.vb" />
     <Compile Include="LoaiTienCongBus.vb" />
     <Compile Include="HieuXeBus.vb" />
     <Compile Include="DoanhSoBus.vb" />
@@ -84,6 +85,9 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="PhieuSuaChuaBus.vb" />
+    <Compile Include="PhieuThuTienBus.vb" />
+    <Compile Include="PhuTungBus.vb" />
+    <Compile Include="ThongTinXeBus.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

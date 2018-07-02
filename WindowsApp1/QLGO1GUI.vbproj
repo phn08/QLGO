@@ -84,6 +84,12 @@
     <Compile Include="frmBaoCaoDoanhSo.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmHome.Designer.vb">
+      <DependentUpon>frmHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmPhieuThuTien.Designer.vb">
       <DependentUpon>frmPhieuThuTien.vb</DependentUpon>
     </Compile>
@@ -126,6 +132,27 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmBaoCaoDoanhSo.resx">
+      <DependentUpon>frmBaoCaoDoanhSo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBaoCaoTon.resx">
+      <DependentUpon>frmBaoCaoTon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDanhSachXe.resx">
+      <DependentUpon>frmDanhSachXe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHome.resx">
+      <DependentUpon>frmHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhieuSuaChua.resx">
+      <DependentUpon>frmPhieuSuaChua.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhieuThuTien.resx">
+      <DependentUpon>frmPhieuThuTien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTiepNhanXeSua.resx">
+      <DependentUpon>frmTiepNhanXeSua.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -144,6 +171,20 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\QLGO1DTO.vbproj">
+      <Project>{9a84cd4a-609f-47ba-8b1b-0b3b5ce0e4c4}</Project>
+      <Name>QLGO1DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClassLibrary3\QLGO1BUS.vbproj">
+      <Project>{a4cc76dd-babf-45d0-87f1-556efe4e3de8}</Project>
+      <Name>QLGO1BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.vbproj">
+      <Project>{1a0e014e-edc9-4cb1-87f3-869d5ca2e10c}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
